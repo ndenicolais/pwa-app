@@ -50,7 +50,7 @@ function App() {
     <ul>
       <TodoList todos={todos} toggleComplete={toggleComplete} toggleDelete={toggleDelete}/>
       <AddTodo addTodo={addTodo}/><br/>
-    <h2><a href="https://github.com/ndenicolais">Created by NDN</a></h2>
+    <h2><a href="https://github.com/ndenicolais/todo-list-react-ts">Created by NDN</a></h2>
     </ul>
     </div>
   );
