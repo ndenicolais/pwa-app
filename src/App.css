@@ -1,10 +1,9 @@
 .App {
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size:xx-large;
   color:darkred;
 }
 
@@ -15,7 +14,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 30s linear;
   }
 }
 
@@ -34,8 +33,8 @@ body {
   font-family: 'Consolas';
 }
 
-button {
-  background-color: #fbeee0;
+#submit-button {
+  background-color:#FEAE2B;
   font-family: 'Consolas';
   border: 2px solid black;
   border-radius: 30px;
@@ -54,8 +53,11 @@ button {
   touch-action: manipulation;
 }
 
-button:hover {
-  background-color:chocolate;
+#delete-button {
+  background-color:#FEAE2B;
+  font-family: 'Consolas';
+  border: 2px solid black;
+  cursor: pointer;
 }
 
 button:active {
@@ -63,11 +65,9 @@ button:active {
   transform: translate(2px, 2px);
 }
 
-@media (min-width: 768px) {
-  button {
-    min-width: 120px;
-    padding: 0 25px;
-  }
+h1 {
+  text-align: center;
+  font-size:500%;
 }
 
 h2 {
@@ -83,6 +83,15 @@ input {
   font-family: 'Consolas';
   border: 2px solid black;
   border-radius: 30px;
+}
+
+input[type=checkbox] {
+  position: relative;
+  cursor: pointer;
+}
+
+label:checked{
+  background-color: aqua;
 }
 
 .complete {

@@ -10,9 +10,9 @@ export const AddTodo: React.FC<AddTodoProps> = ({ addTodo }) => {
         value={text}
         onChange={(e) => {
           setText(e.target.value);
-        }}/><br/>
+        }}/><br/><br/>
       
-      <button
+      <button id="submit-button"
         type="submit"
         onClick={(e) => {
           e.preventDefault();

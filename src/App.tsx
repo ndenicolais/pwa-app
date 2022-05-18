@@ -47,8 +47,9 @@ function App() {
     <img src={logo} className="App-logo" alt="logo" />
     <ul>
       <TodoList todos={todos} toggleComplete={toggleComplete} toggleDelete={toggleDelete}/>
+      <br/>
       <AddTodo addTodo={addTodo}/><br/>
-    <h2><a href="https://github.com/ndenicolais/todo-list-react-ts">Created by NDN</a></h2>
+    <h2><a href="https://github.com/ndenicolais/">Created by NDN</a></h2>
     </ul>
     </div>
   );

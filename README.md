@@ -22,3 +22,6 @@ contiene il codice sorgente per far funzionare l'applicazione
 3) Run `yarn` to import node modules
 
 4) Run `yarn dev` to run dev server
+
+## Screen  applicazione
+
