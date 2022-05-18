@@ -25,3 +25,4 @@ contiene il codice sorgente per far funzionare l'applicazione
 
 ## Screen  applicazione
 
+<img src='todo-list-react-ts-screen.png'>
