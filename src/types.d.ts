@@ -6,7 +6,6 @@ dobbiamo importare/esportare in maniera esplicita
 */
 
 type Todo = {
-  id: string;
   text: string;
   complete: boolean;
 };
@@ -25,10 +24,10 @@ type TodoListProps = {
 
 type AddTodoProps = {
   addTodo: AddTodo;
-}
+};
 
 type ToggleComplete = (selectedTodo: Todo) => void;
 
-type ToggleDelete = (todoToDelete: Todo) => void;
+type ToggleDelete = (todo: Todo) => void;
 
 type AddTodo = (id: string, text: string) => void;

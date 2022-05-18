@@ -11,6 +11,7 @@ export const TodoListItem: React.FC<TodoListItemProps> = ({
           checked={todo.complete}
         />
         {todo.text}
+        
       </label>
       <button onClick={() => toggleDelete(todo)}>X</button>
     </ul>

@@ -6,12 +6,10 @@ import './App.css'
 
 const initialTodos: Todo[] = [
   {
-    id: '',
     text: 'Attività da eseguire',
     complete: false,
   },
   {
-    id: '',
     text: 'Attività eseguita',
     complete: true,
   },
@@ -34,12 +32,12 @@ function App() {
   };
 
   const toggleDelete: ToggleDelete = (todoToDelete: Todo) => {
-    const newTodosState = todos.filter(todo => todo.id !== todoToDelete.id);
+    const newTodosState = todos.filter((todo) => todo.text !== todoToDelete.text);
     setTodos(newTodosState);
   }
   
-  const addTodo: AddTodo = (id: string, text: string) => {
-    const newTodo = {id, text, complete: false };
+  const addTodo: AddTodo = (text: string) => {
+    const newTodo = {text, complete: false };
     setTodos([...todos, newTodo]);
   };
   
