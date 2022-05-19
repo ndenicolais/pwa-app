@@ -1,10 +1,11 @@
 body {
+  font-family: 'Consolas';
   margin: 0;
   background-color:bisque;
-  font-family: 'Consolas';
 }
 
 .App {
+  font-family: 'Consolas';
   min-height: 50vh;
   display: flex;
   flex-direction: column;

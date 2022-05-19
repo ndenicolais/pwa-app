@@ -3,7 +3,7 @@ import React from "react";
 export const TodoListItem: React.FC<TodoListItemProps> = ({
   todo, toggleComplete, toggleDelete }) => {
   return (
-    <ul>
+    <dt>
       <label className={todo.complete ? "complete" : undefined}>
         <input id="checkbox" type="checkbox"
           onChange={() => toggleComplete(todo)}
@@ -13,6 +13,6 @@ export const TodoListItem: React.FC<TodoListItemProps> = ({
         
       </label>
       <button id="delete-button" onClick={() => toggleDelete(todo)}>X</button>
-    </ul>
+    </dt>
   );
 };

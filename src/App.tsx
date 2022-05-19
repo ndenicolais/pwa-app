@@ -49,12 +49,10 @@ function App() {
     <div className="App">
     <h1>React Todo List</h1>
     <img src={logo} className="App-logo" alt="logo" />
-    <ul>
+    <dt>
       <TodoList todos={todos} toggleComplete={toggleComplete} toggleDelete={toggleDelete}/>
-      <br/>
       <AddTodo addTodo={addTodo}/><br/>
-    <h2><a href="https://github.com/ndenicolais/">Created by NDN</a></h2>
-    </ul>
+    </dt>
     </div>
   );
 }
