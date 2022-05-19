@@ -37,32 +37,27 @@ body {
 #submit-button {
   background-color:#FEAE2B;
   font-family: 'Consolas';
-  border: 2px solid black;
-  border-radius: 30px;
-  box-shadow: black 4px 4px 0 0;
+  border: 2px solid darkred;
+  border-radius: 20px;
+  box-shadow: darkred 3px 3px 0 0;
   color: black;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
   font-size: 18px;
-  padding: 0 18px;
   line-height: 50px;
   text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
 }
 
 #delete-button {
   background-color:#FEAE2B;
   font-family: 'Consolas';
-  border: 2px solid black;
+  border: 2px solid darkred;
   cursor: pointer;
 }
 
 button:active {
-  box-shadow: black 2px 2px 0 0;
+  box-shadow: darkred 3px 3px 0 0;
   transform: translate(2px, 2px);
 }
 

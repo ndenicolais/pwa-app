@@ -2,7 +2,7 @@
 
 > <b>Autore: Nicola De Nicolais</b>
 
-Todo list creata con Vite.js basata su un template React Typescript. Quest'app permette di aggiungere, selezionare e cancellare delle attività all'interno di una lista.
+Todo list creata con Vite.js basata su un template React TypeScript. Questo codice crea una lista nella quale si può aggiungere, selezionare e cancellare un'attività.
 
 ## Tecnologie utilizzate
 ⚡ [Vite](https://vitejs.dev)
@@ -34,5 +34,4 @@ Nella cartella del progetto possiamo eseguire diverse azioni:
 Apri http://localhost:3000 per visualizzare l'applicazione nel browser.
 
 ## Screen  applicazione
-
 <img src='screenshot.png'>
