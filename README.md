@@ -34,4 +34,4 @@ Nella cartella del progetto possiamo eseguire diverse azioni:
 Apri http://localhost:3000 per visualizzare l'applicazione nel browser.
 
 ## Screen  applicazione
-<img src=''>
+<img src='screenshot.png'>
