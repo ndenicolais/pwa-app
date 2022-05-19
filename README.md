@@ -10,18 +10,28 @@ Questo codice rappresenta una Todo list creata con Vite.js basata su un template
 - 🌐 [React](https://reactjs.org/)
 ## Struttura
 - 📂 public  
-contiene le risorse come il file "index.html" e le icone.
+contiene le risorse come il file "index.html", immagini, icone, etc...
 - 📂 src  
 contiene il codice sorgente per far funzionare l'applicazione
 
+  Internamente alla cartella ci sono:
+
+- AddTodo.tsx
+- App.tsx
+- TodoList.tsx
+- TodoListItem.tsx
+
 ## Installazione
-1) Clone this repo in `git clone https://github.com/ndenicolais/todo-list-react-ts`
+Nella cartella del progetto possiamo eseguire diverse azioni:
 
-2) `cd todo-list-react-ts-main`
+1) Clona questa repository da GitHub. Apri il terminale ed esegui `git clone https://github.com/ndenicolais/todo-list-react-ts`
 
-3) Run `yarn` to import node modules
+2) Nel terminale esegui    `cd todo-list-react-ts-main` per entrare nella cartella del progetto.
 
-4) Run `yarn dev` to run dev server
+3) Esegui `yarn` per instalalre le dipendenze richieste per l'applicazione.
+
+4) Esegui `yarn dev` per avviare l'applicazione in modalità sviluppatore.
+Apri http://localhost:3000 per visualizzare l'applicazione nel browser.
 
 ## Screen  applicazione
 

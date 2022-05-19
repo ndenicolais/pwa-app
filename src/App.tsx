@@ -47,7 +47,7 @@ function App() {
   
   return (
     <div className="App">
-    <h1>Todo List</h1>
+    <h1>React Todo List</h1>
     <img src={logo} className="App-logo" alt="logo" />
     <ul>
       <TodoList todos={todos} toggleComplete={toggleComplete} toggleDelete={toggleDelete}/>
