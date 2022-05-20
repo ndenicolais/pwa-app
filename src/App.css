@@ -47,6 +47,7 @@ body {
   font-size: 18px;
   line-height: 50px;
   text-align: center;
+  min-width: 100px;
 }
 
 #delete-button {
@@ -54,6 +55,7 @@ body {
   font-family: 'Consolas';
   border: 2px solid darkred;
   cursor: pointer;
+  min-width: 50px;
 }
 
 button:active {
@@ -79,10 +81,6 @@ input {
 input[type=checkbox] {
   position: relative;
   cursor: pointer;
-}
-
-label:checked{
-  background-color: aqua;
 }
 
 .complete {
