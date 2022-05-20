@@ -1,28 +1,21 @@
-# Todo list
+# React App TS
 
 > <b>Autore: Nicola De Nicolais</b>
 
-Questo codice rappresenta un'applicazione creata con Vite.js basata su un template React TypeScript con l'aggiunta di React Router. All'interno dell'app vi è acnhe una Todo list che crea una lista nella quale si può aggiungere, selezionare e cancellare un'attività.
+Questo codice rappresenta un'applicazione creata con Vite.js basata su template React TypeScript con l'aggiunta di React Router. All'interno dell'app sono presenti delle sezioni tra cui una Todo list che permette di generare una lista nella quale si può aggiungere, selezionare e cancellare un'attività.
 
 ## Tecnologie utilizzate
 ⚡ [Vite](https://vitejs.dev)
 
-Tool per sviluppo di progetti web con caratteristiche molto vantaggiose:
-- 💡 Avvio immediato del server senza che file vengano necessariamente raggruppati.
-- ⚡️ Hot Module Replacement che permette di cambiare, aggiungere o rimuovere i moduli mentre un applicazione viene eseguita.
-- 📦 Build ottimizzata con il plugin Rollup che supporta modalità multi-pagina e libreria.
-- 🛠️ API con pieno supporto TypeScript, JSX, CSS e altro.
+Tool per sviluppo di progetti web caratterizzato da un dev server e che permette di impacchettare il codice da produrre.
 
 💠 [React](https://reactjs.org/)
 
-Libreria di sviluppo UI basata su JavaScript che offre varie estensioni per diversi tipi di applicazioni. React permette:
-- 📦 Facile creazione di applicazioni web e mobili dinamiche con meno codifica e offre più funzionalità.
-- ⚡️ Prestazioni migliorate grazie al Virtual DOM.
-- 🔩 Componenti riutilizzabili  in tutta l'applicazione.
-- 📊 Flusso di dati unidirezionale.
-- 🛠️ Strumenti dedicati per facilitare il debug.
+Libreria di sviluppo UI basata su JavaScript che offre varie estensioni per diversi tipi di applicazioni.
 
 📍 [React Router](https://reactrouter.com/)
+
+Uno strumento che consente di gestire i percorsi in un'applicazione web utilizzando il routing dinamico.
 ## Installazione
 Nella cartella del progetto possiamo eseguire diverse azioni:
 
