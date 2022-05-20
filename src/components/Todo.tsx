@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { TodoList } from './TodoList';
 import { AddTodo } from './AddTodo';
 import '/src/style.css'
@@ -49,11 +49,10 @@ function Todo() {
     <h1>Todo List</h1>
     <dt>
       <TodoList todos={todos} toggleComplete={toggleComplete} toggleDelete={toggleDelete}/>
-      <AddTodo addTodo={addTodo}/><br/>
+      <AddTodo addTodo={addTodo}/>
     </dt>
-    <form action="/">
-      <button id="default-button"
-      type='submit'>Homepage</button>
+      <form action="/">
+      <button id="default-button" type='submit'>Homepage</button>
       </form>
     </div>
   );

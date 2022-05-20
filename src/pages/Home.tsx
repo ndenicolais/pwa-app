@@ -4,24 +4,24 @@ function Home() {
   
   return (
     <div className="Home">
-          <td>
+          <dt>
             <form action="/about">
               <button id="default-button"
               type='submit'>About</button>
             </form>
-          </td>
-            <td>
+          </dt>
+            <dt>
               <form action="/contatti">
                 <button id="default-button"
                 type='submit'>Contatti</button>
               </form>
-          </td>
-            <td>
+          </dt>
+            <dt>
               <form action="/src/components/todo">
                 <button id="default-button"
                 type='submit'>Todo List</button>
               </form>
-            </td>
+            </dt>
     </div>
   )
 }

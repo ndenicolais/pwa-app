@@ -15,7 +15,7 @@ Libreria di sviluppo UI basata su JavaScript che offre varie estensioni per dive
 
 📍 [React Router](https://reactrouter.com/)
 
-Uno strumento che consente di gestire i percorsi in un'applicazione web utilizzando il routing dinamico.
+Strumento che consente di gestire i percorsi in un'applicazione web utilizzando il routing dinamico.
 ## Installazione
 Nella cartella del progetto possiamo eseguire diverse azioni:
 
@@ -29,4 +29,8 @@ Nella cartella del progetto possiamo eseguire diverse azioni:
 Apri http://localhost:3000 per visualizzare l'applicazione nel browser.
 
 ## Screen  applicazione
+### Homepage
 <img src='screen-main-page.png'>
+
+### Todo List
+<img src='screen-todo-list.png'>

@@ -4,7 +4,7 @@
     "start_url": "",
     "display": "standalone",
     "background_color": "#E8967D",
-    "description": "Demo con React TypeScript",
+    "description": "App creata con Vite, React TypeScript e React Router",
     "icons": [
       {
         "src": "favicon.ico",
