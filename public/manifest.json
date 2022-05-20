@@ -1,10 +1,10 @@
 {
-    "short_name": "React TL",
-    "name": "React Todo List",  
+    "short_name": "RAppTS",
+    "name": "React App TS",  
     "start_url": "",
     "display": "standalone",
-    "background_color": "#FFE4C6",
-    "description": "Todo list",
+    "background_color": "#E8967D",
+    "description": "Demo con React TypeScript",
     "icons": [
       {
         "src": "favicon.ico",

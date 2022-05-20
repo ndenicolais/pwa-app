@@ -1,0 +1,105 @@
+body {
+  background-color: darksalmon;
+  font-family: 'Consolas';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+  padding: 1em;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.Home { 
+  text-align: center;
+  padding: 3em;
+}
+
+h1 {
+  font-size: xx-large;
+  font-family: 'Consolas';
+}
+
+h2 {
+  font-size: medium;
+  font-family: 'Consolas';
+}
+
+#default-button {
+  font-family: 'Consolas';
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: black 4px 4px 0 0;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  min-width: 150px;
+}
+
+#submit-button {
+  background-color:white;
+  font-family: 'Consolas';
+  border: 2px solid black;
+  border-radius: 30px;
+  box-shadow: black 3px 3px 0 0;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 12px;
+  line-height: 40px;
+  min-width: 100px;
+}
+
+#delete-button {
+  background-color:white;
+  font-family: 'Consolas';
+  border: 2px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  min-width: 30px;
+}
+
+button:hover {
+  background-color: #FEDD6E;
+}
+
+button:active {
+  box-shadow: black 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+input {
+  font-family: 'Consolas';
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+input[type=checkbox] {
+  position: relative;
+  cursor: pointer;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+td {  
+  display: inline-block;
+}
