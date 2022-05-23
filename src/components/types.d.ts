@@ -1,8 +1,7 @@
 /*
-Inseriamo tutti i tipi utilizzati nel codice
-all'interno di questo file in modo tale che
-il nostro compilatore li riconosca e non
-dobbiamo importare/esportare in maniera esplicita
+permette al compilatore di riconoscere i tipi presenti nel codice
+come tipi globali in modo tale da non dover ogni volta importare/esportare
+esplicitamente i nostri componenti all’interno dell’applicazione.
 */
 
 type Todo = {
