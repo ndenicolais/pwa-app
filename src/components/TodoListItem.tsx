@@ -5,7 +5,8 @@ export const TodoListItem: React.FC<TodoListItemProps> = ({
   return (
     <ol>
       <label className={todo.complete ? "complete" : undefined}>
-        <input id="checkbox"
+        <input
+        id="checkbox"
         type="checkbox"
         onChange={() => toggleComplete(todo)}
         checked={todo.complete}
@@ -13,7 +14,11 @@ export const TodoListItem: React.FC<TodoListItemProps> = ({
         {todo.text}
         
       </label>
-      <button id="delete-button" onClick={() => toggleDelete(todo)}>X</button>
+      <button
+      id="delete-button"
+      onClick={() =>
+      toggleDelete(todo)}>X
+      </button>
     </ol>
   );
 };

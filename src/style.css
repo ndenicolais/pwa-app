@@ -99,11 +99,3 @@ input[type=checkbox] {
 .complete {
   text-decoration: line-through;
 }
-
-dt {  
-  display: inline-block;
-}
-
-ol {
-  display: flex;
-}

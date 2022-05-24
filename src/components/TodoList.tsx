@@ -4,7 +4,7 @@ import { TodoListItem } from "./TodoListItem";
 export const TodoList: React.FC<TodoListProps> = ({
   todos, toggleComplete, toggleDelete }) => {
   return (
-    <ul>
+    <ol>
       {todos.map(todo => (
         <TodoListItem
           key={todo.text}
@@ -13,6 +13,6 @@ export const TodoList: React.FC<TodoListProps> = ({
           toggleDelete={toggleDelete}
         />
       ))}
-    </ul>
+    </ol>
   );
 };

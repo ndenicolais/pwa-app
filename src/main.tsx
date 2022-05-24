@@ -7,7 +7,10 @@ import Contatti from './pages/Contatti';
 import Todo from './components/Todo';
 import './style.css';
 
-createRoot(document.getElementById('root')!).render(
+const container = document.getElementById("root");
+const root = createRoot(container!);
+
+root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>

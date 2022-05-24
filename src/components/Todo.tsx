@@ -26,11 +26,11 @@ function Todo() {
   e permette di restituire l'azione configurata
   */
   useEffect(() => {
-    // aggiungiamo i "todos" al localStorage
+    // aggiungiamo i todos al localStorage
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos]);
   
-  // seleziona/deseleziona un todo
+  // verifica se un todo viene selezionato e quindi lo contrassegna come completato
   const toggleComplete: ToggleComplete = (selectedTodo: Todo) => {
     const newTodos = todos.map((todo: any) => {
       if (todo === selectedTodo) {
@@ -46,7 +46,8 @@ function Todo() {
 
   // elimina un todo
   const toggleDelete: ToggleDelete = (todoToDelete: Todo) => {
-    const newTodosState = todos.filter((todo: any) => todo.text !== todoToDelete.text);
+    const newTodosState = todos.filter((todo: any) => 
+    todo.text !== todoToDelete.text);
     setTodos(newTodosState);
   }
   
@@ -59,16 +60,17 @@ function Todo() {
   return (
     <div className="App">
     <h1>Todo List</h1>
-    <dt>
       <TodoList
       todos={todos}
       toggleComplete={toggleComplete}
       toggleDelete={toggleDelete}
       />
       <AddTodo addTodo={addTodo}/>
-    </dt>
       <form action="/">
-      <button id="default-button" type='submit'>Homepage</button>
+      <button
+      id="default-button"
+      type='submit'>Homepage
+      </button>
       </form>
     </div>
   );

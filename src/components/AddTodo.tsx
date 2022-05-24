@@ -12,13 +12,13 @@ export const AddTodo: React.FC<AddTodoProps> = ({ addTodo }) => {
           setText(e.target.value);
         }}/><br/><br/>
       
-      <button id="submit-button"
-        type="submit"
-        onClick={(e) => {
-          e.preventDefault();
-          addTodo(text, text);
-          setText('');
-        }}>Aggiungi attività
+      <button
+      id="submit-button"
+      type="submit"
+      onClick={() => {
+        addTodo(text, text);
+        setText('');
+      }}>Aggiungi attività
       </button>
     </form>
   );

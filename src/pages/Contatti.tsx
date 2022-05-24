@@ -9,7 +9,7 @@ function Contatti() {
         <dt>Fax: </dt><br/>
           <dt>Web: </dt><br/>
             <dt>Email: </dt><br/>
-          </h2><br/>
+          </h2>
       <form action="/">
       <button id="default-button" type='submit'>Homepage</button>
       </form>
