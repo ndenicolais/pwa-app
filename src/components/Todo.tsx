@@ -31,28 +31,30 @@ function Todo() {
   }, [todos]);
   
   // verifica se un todo viene selezionato e quindi lo contrassegna come completato
-  const toggleComplete: ToggleComplete = (selectedTodo: Todo) => {
+  const toggleComplete: ToggleComplete = selectedTodo => {
     const newTodos = todos.map((todo: any) => {
       if (todo === selectedTodo) {
         return {
-          ...todo,
-          complete: !todo.complete,
-        };
+          ...todo, complete: !todo.complete };
       }
       return todo;
     });
+
+    // aggiorna lo stato dei todos
     setTodos(newTodos);
   };
 
   // elimina un todo
-  const toggleDelete: ToggleDelete = (todoToDelete: Todo) => {
+  const toggleDelete: ToggleDelete = todoToDelete => {
     const newTodosState = todos.filter((todo: any) => 
     todo.text !== todoToDelete.text);
+
+    // aggiorna lo stato dei todos
     setTodos(newTodosState);
   }
   
   // aggiungi un todo
-  const addTodo: AddTodo = (text: string) => {
+  const addTodo: AddTodo = text => {
     const newTodo = {text, complete: false };
     setTodos([...todos, newTodo]);
   };
@@ -69,7 +71,8 @@ function Todo() {
       <form action="/">
       <button
       id="default-button"
-      type='submit'>Homepage
+      type='submit'>
+        Homepage
       </button>
       </form>
     </div>

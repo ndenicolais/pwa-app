@@ -12,12 +12,13 @@ export const TodoListItem: React.FC<TodoListItemProps> = ({
         checked={todo.complete}
         />
         {todo.text}
-        
-      </label>
+        </label>
+
       <button
       id="delete-button"
       onClick={() =>
-      toggleDelete(todo)}>X
+      toggleDelete(todo)}>
+        X
       </button>
     </ol>
   );

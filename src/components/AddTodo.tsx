@@ -16,9 +16,10 @@ export const AddTodo: React.FC<AddTodoProps> = ({ addTodo }) => {
       id="submit-button"
       type="submit"
       onClick={() => {
-        addTodo(text, text);
+        addTodo(text);
         setText('');
-      }}>Aggiungi attività
+      }}>
+        Aggiungi attività
       </button>
     </form>
   );

@@ -29,4 +29,4 @@ type ToggleComplete = (selectedTodo: Todo) => void;
 
 type ToggleDelete = (todo: Todo) => void;
 
-type AddTodo = (id: string, text: string) => void;
+type AddTodo = (text: string) => void;
