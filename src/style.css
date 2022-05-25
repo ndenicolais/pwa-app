@@ -1,23 +1,14 @@
 body {
   background-color: darksalmon;
   font-family: 'Consolas';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.App {
   text-align: center;
-  padding: 1em;
+  padding: 5em;
 }
 
-.App-logo {
+.Home-logo {
   height: 30vmin;
+  padding: 5em;
   pointer-events: none;
-}
-
-.Home { 
-  text-align: center;
-  padding: 3em;
 }
 
 h1 {

@@ -60,8 +60,8 @@ function Todo() {
   };
   
   return (
-    <div className="App">
-    <h1>Todo List</h1>
+    <div className="Todo-list">
+    <h1>TODO LIST</h1>
       <TodoList
       todos={todos}
       toggleComplete={toggleComplete}
