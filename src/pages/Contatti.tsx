@@ -12,7 +12,7 @@ function Contatti() {
           <dt>Web: </dt><br/>
             <dt>Email: </dt><br/>
           </h2>
-      <form action="/home">
+      <form action="/">
       <button
       id="default-button"
       type='submit'>

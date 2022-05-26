@@ -1,10 +1,10 @@
-import '/src/styles/About.css';
+import '/src/styles/NotFound.css';
 
-function About() {
+function NotFound() {
     return (
         <div className='About'>
-        <h1>ABOUT</h1>
-        <h2>App creata con l'utilizzo di Vite.js, React TypeScript e React Router</h2>
+        <h1>ERROR</h1>
+        <h2>Pagina non trovata!</h2>
         <br/>
         <form action='/'>
             <button
@@ -17,4 +17,4 @@ function About() {
     )
 }
 
-export default About
+export default NotFound

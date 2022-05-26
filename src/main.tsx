@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contatti from './pages/Contatti';
 import Todo from './components/Todo';
+import NotFound from './pages/NotFound';
 import './styles/main.css';
 
 const container = document.getElementById("root");
@@ -14,10 +15,11 @@ root.render(
   <BrowserRouter>
   <Navbar/>
   <Routes>
-    <Route path="/home" element={<Home />}/>
+    <Route path="/" element={<Home />}/>
     <Route path="/about" element={<About />}/>
     <Route path="/contatti" element={<Contatti />}/>
     <Route path="/src/components/todo" element={<Todo />}/>
+    <Route path="*" element={<NotFound />}/>
     </Routes>
     </BrowserRouter>
     )
