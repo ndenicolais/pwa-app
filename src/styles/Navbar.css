@@ -1,0 +1,27 @@
+.navbar{
+    overflow: hidden;
+    background-color:brown;
+    font-size: 20px;
+    color: white; 
+    display : flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #FEDD6E;
+}

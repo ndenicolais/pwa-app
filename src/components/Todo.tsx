@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { TodoList } from './TodoList';
 import { AddTodo } from './AddTodo';
-import '/src/style.css'
+import '/src/styles/Todo.css'
 
 function Todo() {
   /* REACT HOOK
@@ -68,7 +68,7 @@ function Todo() {
       toggleDelete={toggleDelete}
       />
       <AddTodo addTodo={addTodo}/>
-      <form action="/">
+      <form action="/home">
       <button
       id="default-button"
       type='submit'>

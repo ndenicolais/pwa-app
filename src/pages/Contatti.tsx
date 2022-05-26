@@ -1,3 +1,5 @@
+import '/src/styles/Contatti.css';
+
 function Contatti() {
 
   return (
@@ -10,8 +12,12 @@ function Contatti() {
           <dt>Web: </dt><br/>
             <dt>Email: </dt><br/>
           </h2>
-      <form action="/">
-      <button id="default-button" type='submit'>Homepage</button>
+      <form action="/home">
+      <button
+      id="default-button"
+      type='submit'>
+        Homepage
+        </button>
       </form>
     </div>
   )

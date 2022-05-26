@@ -1,0 +1,15 @@
+.Home-logo {
+    height: 30vmin;
+    padding: 2em;
+    pointer-events: none;
+  }
+  
+  h1 {
+    font-size: xx-large;
+    font-family: 'Consolas';
+  }
+  
+  h2 {
+    font-size: medium;
+    font-family: 'Consolas';
+  }
