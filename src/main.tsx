@@ -20,6 +20,6 @@ root.render(
     <Route path="/contatti" element={<Contatti />}/>
     <Route path="/src/components/todo" element={<Todo />}/>
     <Route path="*" element={<NotFound />}/>
-    </Routes>
-    </BrowserRouter>
-    )
+  </Routes>
+  </BrowserRouter>
+)

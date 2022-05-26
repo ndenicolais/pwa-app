@@ -1,3 +1,8 @@
+.error {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
 h1 {
     font-size: xx-large;
     font-family: 'Consolas';
@@ -27,13 +32,8 @@ h2 {
     -webkit-user-select: none;
     touch-action: manipulation;
     min-width: 150px;
-}
+  }
   
-button:hover {
+  #default-buttonutton:hover {
     background-color: #FEDD6E;
-}
-
-button:active {
-    box-shadow: black 2px 2px 0 0;
-    transform: translate(2px, 2px);
-}
+  }

@@ -7,7 +7,7 @@ h2 {
     font-size: medium;
     font-family: 'Consolas';
 }
-  
+
 #default-button {
     font-family: 'Consolas';
     background-color: white;
@@ -28,12 +28,12 @@ h2 {
     touch-action: manipulation;
     min-width: 150px;
 }
-  
-button:hover {
+
+#default-button:hover {
     background-color: #FEDD6E;
 }
 
-button:active {
-    box-shadow: black 2px 2px 0 0;
-    transform: translate(2px, 2px);
+.logo {
+    height: 20vmin;
+    pointer-events: none;
 }

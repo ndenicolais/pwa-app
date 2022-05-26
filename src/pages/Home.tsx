@@ -1,4 +1,4 @@
-import logo from '/public/logo-512x512.png';
+import logo from '/logo-512x512.png';
 import '/src/styles/Home.css';
 
 function Home() {

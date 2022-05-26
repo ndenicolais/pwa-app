@@ -7,15 +7,15 @@ Questo codice rappresenta un'applicazione creata con Vite.js basata su template 
 ## Tecnologie utilizzate
 ⚡ [Vite](https://vitejs.dev)
 
-Tool per sviluppo di progetti web caratterizzato da un dev server e che permette di impacchettare il codice da produrre.
+Vite.js è un tool di sviluppo molto più leggero in termini di dipendenze e permette di impostare un ambiente di sviluppo moderno per framework come Vue, React e per JavaScript Vanilla. Caratterizzato da un modulo HMR e da un bundler di moduli per JavaScript, Rollup.
 
 💠 [React](https://reactjs.org/)
 
-Libreria di sviluppo UI basata su JavaScript che offre varie estensioni per diversi tipi di applicazioni.
+React.js è una libreria JavaScript per la creazione di interfacce utente specifiche per applicazioni a singola pagina. Consente agli sviluppatori di creare applicazioni web di grandi dimensioni in grado di modificare i dati senza dover ricaricare ogni volta la pagina.
 
 📍 [React Router](https://reactrouter.com/)
 
-Strumento che consente di gestire i percorsi in un'applicazione web utilizzando il routing dinamico.
+React Router è una libreria di routing completa per JavaScript che consente di gestire i percorsi all’interno di un’applicazione web utilizzando utilizzando il cosiddetto routing dinamico. Consente la navigazione tra le sezioni di vari componenti presenti nelle applicazioni React e permette di modificare l’URL del browser mantenendo l’interfaccia utente sincronizzata con l’URL.
 ## Installazione
 Nella cartella del progetto possiamo eseguire diverse azioni:
 
@@ -30,7 +30,7 @@ Apri http://localhost:3000 per visualizzare l'applicazione nel browser.
 
 ## Screen  applicazione
 ### Homepage
-<img src='screen-main-page.png'>
+<img src='images/screen-main-page.png'>
 
 ### Todo List
-<img src='screen-todo-list.png'>
+<img src='images/screen-todo-list.png'>
