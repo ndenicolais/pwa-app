@@ -1,4 +1,4 @@
-# React App TS
+# REACT APP TS
 
 <img src='public\logo-192x192.png'>
 
