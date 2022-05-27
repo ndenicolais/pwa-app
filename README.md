@@ -33,7 +33,7 @@ Apri http://localhost:3000 per visualizzare l'applicazione nel browser.
 
 ## Screen  applicazione
 ### Homepage
-<img src='images/'>
+<img src='images/screen-home.png'>
 
 ### Todo List
-<img src='images/'>
+<img src='images/screen-todo.png'>
