@@ -5,7 +5,7 @@ function Home() {
   
   return (
     <div className='Home'>
-      <h1>REACT APP TS</h1>
+      <h1>PWA APP</h1>
       <img src={logo}
       className="Home-logo"
       alt="logo"

@@ -1,11 +1,11 @@
 {
-  "name": "React App TS",
-  "short_name": "RAppTS",
+  "name": "PWA APP",
+  "short_name": "PA",
   "start_url": "",
   "display": "standalone",
   "background_color": "#E8967D",
   "theme_color": "#FEDD6E",
-  "description": "App creata con Vite, React TypeScript e React Router",
+  "description": "PWA creata con Vite.js, React.js e React Router",
   "icons": [
       {
         "src": "favicon.ico",

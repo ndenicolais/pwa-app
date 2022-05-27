@@ -1,10 +1,10 @@
-# REACT APP TS
+# PWA APP
 
 <img src='public\logo-192x192.png'>
 
 > <b>Autore: Nicola De Nicolais</b>
 
-Questo codice rappresenta un'applicazione creata con Vite.js basata su template React TypeScript con l'aggiunta di React Router. All'interno dell'app sono presenti delle sezioni tra cui una Todo list che permette di generare una lista nella quale si può aggiungere, selezionare e cancellare un'attività.
+Questo codice rappresenta una PWA creata con Vite.js basata su template React TypeScript con l'aggiunta di React Router. All'interno dell'app sono presenti delle sezioni tra cui una Todo list che permette di generare una lista nella quale si può aggiungere, selezionare e cancellare un'attività.
 
 ## Tecnologie utilizzate
 ⚡ [Vite](https://vitejs.dev)
@@ -22,9 +22,9 @@ React Router è una libreria di routing completa per JavaScript che consente di 
 ## Installazione
 Nella cartella del progetto possiamo eseguire diverse azioni:
 
-1) Clona questa repository da GitHub. Apri il terminale ed esegui `git clone https://github.com/ndenicolais/react-app-ts`
+1) Clona questa repository da GitHub. Apri il terminale ed esegui `git clone https://github.com/ndenicolais/pwa-app`
 
-2) Nel terminale esegui    `cd react-app-ts-main` per entrare nella cartella del progetto.
+2) Nel terminale esegui    `cd pwa-app-main` per entrare nella cartella del progetto.
 
 3) Esegui `yarn` per installare le dipendenze richieste per l'applicazione.
 
