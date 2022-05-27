@@ -4,7 +4,7 @@
 
 > <b>Autore: Nicola De Nicolais</b>
 
-Questo codice rappresenta una PWA creata con Vite.js basata su template React TypeScript con l'aggiunta di React Router. All'interno dell'app sono presenti delle sezioni tra cui una Todo list che permette di generare una lista nella quale si può aggiungere, selezionare e cancellare un'attività.
+Questo codice rappresenta una Progressive Web Application creata con Vite.js basata su template React TypeScript con l'aggiunta di React Router. All'interno dell'app sono presenti delle sezioni tra cui una Todo list che permette di generare una lista nella quale si può aggiungere, selezionare e cancellare un'attività.
 
 ## Tecnologie utilizzate
 ⚡ [Vite](https://vitejs.dev)
@@ -33,7 +33,7 @@ Apri http://localhost:3000 per visualizzare l'applicazione nel browser.
 
 ## Screen  applicazione
 ### Homepage
-<img src='images/screen-main-page.png'>
+<img src='images/'>
 
 ### Todo List
-<img src='images/screen-todo-list.png'>
+<img src='images/'>
