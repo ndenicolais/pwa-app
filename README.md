@@ -1,5 +1,7 @@
 # React App TS
 
+<img src='public\logo-192x192.png'>
+
 > <b>Autore: Nicola De Nicolais</b>
 
 Questo codice rappresenta un'applicazione creata con Vite.js basata su template React TypeScript con l'aggiunta di React Router. All'interno dell'app sono presenti delle sezioni tra cui una Todo list che permette di generare una lista nella quale si può aggiungere, selezionare e cancellare un'attività.
@@ -16,6 +18,7 @@ React.js è una libreria JavaScript per la creazione di interfacce utente specif
 📍 [React Router](https://reactrouter.com/)
 
 React Router è una libreria di routing completa per JavaScript che consente di gestire i percorsi all’interno di un’applicazione web utilizzando utilizzando il cosiddetto routing dinamico. Consente la navigazione tra le sezioni di vari componenti presenti nelle applicazioni React e permette di modificare l’URL del browser mantenendo l’interfaccia utente sincronizzata con l’URL.
+
 ## Installazione
 Nella cartella del progetto possiamo eseguire diverse azioni:
 
