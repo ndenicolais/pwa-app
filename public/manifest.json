@@ -1,11 +1,12 @@
 {
-    "short_name": "RAppTS",
-    "name": "React App TS",  
-    "start_url": "",
-    "display": "standalone",
-    "background_color": "#E8967D",
-    "description": "App creata con Vite, React TypeScript e React Router",
-    "icons": [
+  "name": "React App TS",
+  "short_name": "RAppTS",
+  "start_url": "",
+  "display": "standalone",
+  "background_color": "#E8967D",
+  "theme_color": "#FEDD6E",
+  "description": "App creata con Vite, React TypeScript e React Router",
+  "icons": [
       {
         "src": "favicon.ico",
         "sizes": "64x64 32x32 24x24 16x16",
@@ -20,6 +21,12 @@
         "src": "logo-512x512.png",
         "type": "image/png",
         "sizes": "512x512"
-      }	 
+      },
+      {
+        "src": "logo-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
     ]
   }
