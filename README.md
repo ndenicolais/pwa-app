@@ -4,34 +4,34 @@
 
 > <b>Autore: Nicola De Nicolais</b>
 
-Questo codice rappresenta una Progressive Web Application creata con Vite.js basata su template React TypeScript con l'aggiunta di React Router. All'interno dell'app sono presenti delle sezioni tra cui una Todo list che permette di generare una lista nella quale si può aggiungere, selezionare e cancellare un'attività.
+This code represents a Progressive Web Application created with Vite.js based on React TypeScript template with the addition of React Router. Within the app there are sections including a Todo list that allows you to generate a list in which you can add, select and delete a task.
 
-## Tecnologie utilizzate
+## Technologies used
 ⚡ [Vite](https://vitejs.dev)
 
-Vite.js è un tool di sviluppo molto più leggero in termini di dipendenze e permette di impostare un ambiente di sviluppo moderno per framework come Vue, React e per JavaScript Vanilla. Caratterizzato da un modulo HMR e da un bundler di moduli per JavaScript, Rollup.
+Vite.js is a much lighter development tool in terms of dependencies and allows you to set up a modern development environment for frameworks such as Vue, React and for JavaScript Vanilla. Featuring an HMR module and a bundler of modules for JavaScript, Rollup.
 
 💠 [React](https://reactjs.org/)
 
-React.js è una libreria JavaScript per la creazione di interfacce utente specifiche per applicazioni a singola pagina. Consente agli sviluppatori di creare applicazioni web di grandi dimensioni in grado di modificare i dati senza dover ricaricare ogni volta la pagina.
+React.js is a JavaScript library for creating user interfaces specific to single-page applications. It allows developers to create large web applications that can modify data without having to reload the page every time.
 
 📍 [React Router](https://reactrouter.com/)
 
-React Router è una libreria di routing completa per JavaScript che consente di gestire i percorsi all’interno di un’applicazione web utilizzando utilizzando il cosiddetto routing dinamico. Consente la navigazione tra le sezioni di vari componenti presenti nelle applicazioni React e permette di modificare l’URL del browser mantenendo l’interfaccia utente sincronizzata con l’URL.
+React Router is a complete JavaScript routing library that allows you to manage paths within a web application using so-called dynamic routing. It allows navigation between sections of various components in React applications and allows you to change the URL of the browser while keeping the user interface synchronized with the URL.
 
-## Installazione
-Nella cartella del progetto possiamo eseguire diverse azioni:
+## Local development
+In the project folder we can perform several actions:
 
-1) Clona questa repository da GitHub. Apri il terminale ed esegui `git clone https://github.com/ndenicolais/pwa-app`
+1) Clone this repository from GitHub. Open the terminal and run `git clone https://github.com/ndenicolais/pwa-app`
 
-2) Nel terminale esegui    `cd pwa-app-main` per entrare nella cartella del progetto.
+2) In the terminal run    `cd pwa-app-main` to enter the project folder.
 
-3) Esegui `yarn` per installare le dipendenze richieste per l'applicazione.
+3) Run `yarn` to install the required dependencies for the application.
 
-4) Esegui `yarn dev` per avviare l'applicazione in modalità sviluppatore.
-Apri http://localhost:3000 per visualizzare l'applicazione nel browser.
+4) Run `yarn dev` to start the application in developer mode.
+Open http://localhost:3000 to view the application in the browser.
 
-## Screen  applicazione
+## Screen  app
 ### Homepage
 <img src='images/screen-home.png'>
 
