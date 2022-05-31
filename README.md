@@ -6,7 +6,7 @@
 
 This code represents a Progressive Web Application created with Vite.js based on React TypeScript template with the addition of React Router. Within the app there are sections including a Todo list that allows you to generate a list in which you can add, select and delete a task.
 
-## Technologies used
+## 🚀 Technologies used
 ⚡ [Vite](https://vitejs.dev)
 
 Vite.js is a much lighter development tool in terms of dependencies and allows you to set up a modern development environment for frameworks such as Vue, React and for JavaScript Vanilla. Featuring an HMR module and a bundler of modules for JavaScript, Rollup.
@@ -19,19 +19,23 @@ React.js is a JavaScript library for creating user interfaces specific to single
 
 React Router is a complete JavaScript routing library that allows you to manage paths within a web application using so-called dynamic routing. It allows navigation between sections of various components in React applications and allows you to change the URL of the browser while keeping the user interface synchronized with the URL.
 
-## Local development
+## 📦 Local development
 In the project folder we can perform several actions:
 
 1) Clone this repository from GitHub. Open the terminal and run `git clone https://github.com/ndenicolais/pwa-app`
 
 2) In the terminal run    `cd pwa-app-main` to enter the project folder.
 
-3) Run `yarn` to install the required dependencies for the application.
+3) Install the required dependencies for the application:
+- Run `yarn` 
+- Run `npm install`
 
-4) Run `yarn dev` to start the application in developer mode.
+4) Start the application in developer mode.
 Open http://localhost:3000 to view the application in the browser.
+- Run `yarn dev` 
+- Run `npm run dev`
 
-## Customize
+## ⚙️ Customize
 
 Customize the application according to your preferences by editing these files:
 
@@ -47,7 +51,7 @@ Customize the application according to your preferences by editing these files:
 
 📂 styles in `pwa-app/src/`
 
-## Screen  app
+## ✨ Screen  app
 ### Homepage
 <img src='images/screen-home.png'>
 
