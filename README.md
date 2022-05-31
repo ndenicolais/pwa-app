@@ -31,6 +31,22 @@ In the project folder we can perform several actions:
 4) Run `yarn dev` to start the application in developer mode.
 Open http://localhost:3000 to view the application in the browser.
 
+## Customize
+
+Customize the application according to your preferences by editing these files:
+
+📄 index.html in `pwa-app/`
+
+📄 manifest.json in `pwa-app/public/`
+
+📄 main.tsx in `pwa-app/src/`
+
+📂 components in `pwa-app/src/`
+
+📂 pages in `pwa-app/src/`
+
+📂 styles in `pwa-app/src/`
+
 ## Screen  app
 ### Homepage
 <img src='images/screen-home.png'>
