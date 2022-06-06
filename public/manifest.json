@@ -5,7 +5,7 @@
   "display": "standalone",
   "background_color": "#E8967D",
   "theme_color": "#FEDD6E",
-  "description": "PWA creata con Vite.js, React.js e React Router",
+  "description": "PWA realized with Vite.js, React.js and React Router",
   "icons": [
       {
         "src": "favicon.ico",

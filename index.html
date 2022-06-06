@@ -17,10 +17,10 @@
         window.addEventListener('load', () => {
           navigator.serviceWorker.register('/sw.js')
             .then(registration => {
-              console.log('Service Worker registrato!');
+              console.log('Service Worker registered!');
             })
             .catch(err => {
-              console.log('Service Worker non registrato');
+              console.log('Service Worker not registered');
             });
         });
       }
