@@ -35,18 +35,10 @@ Open http://localhost:3000 to view the application in the browser.
 - Run `yarn dev` 
 - Run `npm run dev`
 
-## ⚙️ Customize
+## ⚙️ Customization
 
-Customize the application according to your preferences by editing these files:
-
-📄 index.html in `pwa-app/`
-
-📄 manifest.json in `pwa-app/public/`
-
-📄 main.tsx in `pwa-app/src/`
+Customize the code's components and pages according to your preferences by editing these files:
 
 📂 components in `pwa-app/src/`
 
 📂 pages in `pwa-app/src/`
-
-📂 styles in `pwa-app/src/`
