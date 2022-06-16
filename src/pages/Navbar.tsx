@@ -12,9 +12,6 @@ function Navbar() {
                 <Link to="/about">ABOUT</Link>
                 </li>
                 <li>
-                <Link to="/contatti">CONTATTI</Link>
-                </li>
-                <li>
                 <Link to="/src/components/todo">TODO LIST</Link>
                 </li>
                 </ul>
