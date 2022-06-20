@@ -1,4 +1,4 @@
-.navbar{
+.Navbar{
     overflow: hidden;
     background-color:darkred;
     font-size: 20px;
@@ -7,18 +7,18 @@
     justify-content: center;
 }
 
-.navbar ul {
+.Navbar ul {
     text-decoration: none;
     display: flex;
     flex-direction: row;
     gap: 40px;
 }
 
-.navbar li{
+.Navbar li{
     list-style: none;
 }
 
-.navbar a{
+.Navbar a{
     text-decoration: none;
     color: white;
 }
