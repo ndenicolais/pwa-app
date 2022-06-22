@@ -1,7 +1,5 @@
 # PWA APP
 
-<img src='public\logo-192x192.png'>
-
 > <b>Author: Nicola De Nicolais</b>
 
 This code represents a Progressive Web Application created with Vite.js based on React TypeScript template with the addition of React Router. Within the app there are sections including a Todo list that allows you to generate a list in which you can add, select and delete a task.
