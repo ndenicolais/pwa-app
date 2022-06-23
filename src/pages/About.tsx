@@ -10,13 +10,13 @@ function About() {
             <h2>Applicazione creata con l'utilizzo di:</h2>
             <h2>Vite.js<br/>
             <img src={logo_V}
-            className="logo"/></h2>
+            className="About-logo"/></h2>
             <h2>React.js<br/>
             <img src={logo_R}
-            className="logo"/></h2>
+            className="About-logo"/></h2>
             <h2>React Router<br/>
             <img src={logo_RR}
-            className="logo"/></h2>
+            className="About-logo"/></h2>
 
         <form action='/'>
             <button

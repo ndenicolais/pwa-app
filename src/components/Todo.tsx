@@ -68,13 +68,6 @@ function Todo() {
       toggleDelete={toggleDelete}
       />
       <AddTodo addTodo={addTodo}/>
-      <form action="/">
-      <button
-      id="default-button"
-      type='submit'>
-        Homepage
-      </button>
-      </form>
     </div>
   );
 }

@@ -25,8 +25,6 @@ yarn add react-router-dom
 ```
 
 ## 🛠️ Installation Steps
-In the project folder we can perform several actions:
-
 1) Clone this repository from GitHub
 ```
 git clone https://github.com/ndenicolais/pwa-app`
@@ -49,7 +47,7 @@ npm run dev
 yarn dev
 ```
 
-5) Open "localhost" to view the application in the browser.
+5) Open [http://localhost:3000](http://localhost:3000) to view the application in the browser
 
 ## ⚙️ Customization
 

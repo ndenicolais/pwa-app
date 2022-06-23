@@ -9,14 +9,7 @@ function NotFound() {
             className="error"
             alt="error"
             />
-            <form action='/'>
-                <button
-                id="default-button"
-                type='submit'>
-                    Homepage
-                    </button>
-                    </form>
-                    </div>
+            </div>
     )
 }
 
