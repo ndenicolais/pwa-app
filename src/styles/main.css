@@ -32,3 +32,19 @@ a:link {
 a:visited {
   text-decoration: none;
 }
+
+.Home-logo {
+  height: 30vmin;
+  padding: 2em;
+  pointer-events: none;
+}
+
+.About-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.NotFound {
+  height: 40vmin;
+  pointer-events: none;
+}

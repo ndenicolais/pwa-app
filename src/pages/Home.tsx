@@ -1,5 +1,5 @@
 import logo from '/logo-512x512.png';
-import '/src/styles/Home.css';
+import '/src/styles/main.css';
 
 function Home() {
   

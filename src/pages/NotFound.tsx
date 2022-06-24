@@ -1,12 +1,12 @@
 import error from '/images/404.png';
-import '/src/styles/NotFound.css';
+import '/src/styles/main.css';
 
 function NotFound() {
     return (
-        <div className='About'>
+        <div className='NotFound'>
             <h1>Pagina non trovata</h1>
             <img src={error}
-            className="error"
+            className="NotFound"
             alt="error"
             />
             </div>

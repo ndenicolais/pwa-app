@@ -1,7 +1,7 @@
 import logo_V from '/images/logo_ViteJS.png';
 import logo_R from '/images/logo_ReactJS.png';
 import logo_RR from '/images/logo_ReactRouter.png';
-import '/src/styles/About.css';
+import '/src/styles/main.css';
 
 function About() {
     return (
