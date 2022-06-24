@@ -48,11 +48,3 @@ yarn dev
 ```
 
 5) Open [http://localhost:3000](http://localhost:3000) to view the application in the browser
-
-## ⚙️ Customization
-
-Customize the code's components and pages according to your preferences by editing these files:
-
-📂 components in `pwa-app/src/`
-
-📂 pages in `pwa-app/src/`
