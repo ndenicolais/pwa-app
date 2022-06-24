@@ -1,10 +1,14 @@
+h1 {
+    font-size: xxx-large;
+}
+
 #submit-button {
     background-color:white;
     font-family: 'Consolas';
     border: 2px solid #8C383A;
     border-radius: 30px;
     box-shadow: #8C383A 3px 3px 0 0;
-    color: #8C383A;
+    color: black;
     cursor: pointer;
     display: inline-block;
     font-weight: 600;
@@ -32,6 +36,12 @@ button:active {
     transform: translate(2px, 2px);
 }
 
+label {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 input {
     font-family: 'Consolas';
     border: 2px solid #8C383A;
@@ -42,6 +52,32 @@ input[type=checkbox] {
     position: relative;
     cursor: pointer;
 }
+
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: px;
+    background-color: white;
+  }
+  
+  input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+  }
   
 .complete {
     text-decoration: line-through;
